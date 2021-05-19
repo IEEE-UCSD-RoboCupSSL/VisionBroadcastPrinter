@@ -1,4 +1,5 @@
 .vscode 
 UDP-Multicast-NetCat
-vbp
-vbp-old
+/**/vbp
+/**/vbp-old
+/**/*.o
