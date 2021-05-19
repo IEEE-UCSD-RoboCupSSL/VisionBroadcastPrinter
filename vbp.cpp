@@ -24,6 +24,11 @@ int port = 10020;
 std::string ipAddr = "224.5.23.2";
 
 
+//void printDetection(SSL_WrapperPacket wrapper) {
+//    wrapper.
+//}
+
+
 int main(int argc, char *argv[]) {
     int mode = 0;
     const int detection = 0, geometry = 1;

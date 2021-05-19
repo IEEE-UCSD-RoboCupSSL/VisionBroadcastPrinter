@@ -32,6 +32,6 @@ vbp: vbp.cpp $(PROTO_OBJS)
 
 
 clean:
-	@rm vbp 
-	@rm $(PROTOBUF)/*.o
-	@rm vbp.o
+	@rm -f vbp 
+	@rm -f $(PROTOBUF)/*.o
+	@rm -f vbp.o
