@@ -3,6 +3,9 @@ default: vbp
 # if proto definition is modified, empty "proto-gen" folder 
 # and then run "protoc -I=proto --cpp_out=proto-gen proto/*.proto" to apply the change
 
+protosrc:
+	mkdir -p proto-gen
+	protoc -I=proto --cpp_out=proto-gen proto/*.proto
 
 COMPILER = g++
 
