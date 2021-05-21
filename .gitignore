@@ -2,3 +2,4 @@
 UDP-Multicast-NetCat
 /**/vbp
 /**/*.o
+proto-gen/
